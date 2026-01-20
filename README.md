@@ -26,7 +26,7 @@ The School Directory Project is a comprehensive PHP-based web application that i
    - Password hashing and secure authentication
    - Session management and timeout handling
    - Role-based access control (RBAC)
-   - Input validation and sanitization
+   - Input validation
 
 2. **PHP Development**
    - Server-side scripting with PHP
@@ -59,6 +59,7 @@ C:\Users\emros\Apache24\Apache24\htdocs\CyberSecurity_Final
 ### Core Components
 
 #### `/Classes/` - Course Management
+*In order for students to access or interact with the class section, the teacher must add them*
 Organized by subject areas with course-specific resources:
 - **Networking/** - NET101, NET202 courses
 - **Programming/** - PRO101, PRO202 courses  
@@ -67,10 +68,14 @@ Organized by subject areas with course-specific resources:
 
 Each course section contains:
 - **Assignments/** - Course assignments and projects
+  - *students can download and upload. Only the teacher sees their upload*
 - **FacultyNotes/** - Instructor-created study materials
+  - *For teachers and admins only. Uploading and downloading possible*
 - **LectureNotes/** - Lecture slides and notes
+  - *Students can only upload* 
 
 #### `/People/` - User Groups
+*see groups for more info*
 - **Faculty/** - Faculty member information
 - **Students/** - Student profiles and enrollment data
 - **Public/** - Accessible to anyone
@@ -117,8 +122,7 @@ Python packages and site-packages directory for project dependencies.
 - **Access:** Based on student credentials
 - **Permissions:** 
   - Read & Execute access to classes they are enrolled in
-  - Read, Execute, and Write permissions for enrolled classes
-  - Can view and submit assignments
+  - Read and Write permissions for assigments
   - Can view lecture notes
   - Can see only classes they've been added to by teachers
 
@@ -134,7 +138,7 @@ Python packages and site-packages directory for project dependencies.
 ### Group 3: Public (`public.php`)
 - **Access:** No credentials required
 - **Permissions:**
-  - Read and Execute permissions only
+  - Read permissions only
   - Access to public files only
 
 ## Security Features
