@@ -20,7 +20,6 @@ The School Directory Project is a comprehensive PHP-based web application that i
 - [Future Improvements](#future-improvements)
 - [Project Repositories](#project-repositories)
 - [License](#license)
-- [Contact](#contact)
 
 ## Skills Learned
 1. **Web Security**
@@ -312,8 +311,4 @@ See individual repository READMEs for detailed information.
 ## License
 
 This project was developed as part of a Cybersecurity course final project.
-
-## Contact
-
-For questions or issues, please refer to the course instructor or project documentation.
 
