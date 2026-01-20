@@ -48,7 +48,7 @@ The School Directory Project is a comprehensive PHP-based web application that i
    - Secure file upload handling
    - Directory traversal prevention
    - File organization and access control
-   - 
+  
 ## Project Structure
 
 ### Root Directory
@@ -223,34 +223,6 @@ Python packages and site-packages directory for project dependencies.
 - `style.css` - Application styling
 - `reset_class.php` - Reset class/section selection
 
-## Skills Learned
-
-1. **Web Security**
-   - Password hashing and secure authentication
-   - Session management and timeout handling
-   - Role-based access control (RBAC)
-   - Input validation and sanitization
-
-2. **PHP Development**
-   - Server-side scripting with PHP
-   - File system operations
-   - JSON data handling
-   - Session management
-
-3. **Web Application Architecture**
-   - MVC-like structure organization
-   - Separation of concerns
-   - Role-based UI rendering
-
-4. **Apache Configuration**
-   - Apache HTTP Server setup
-   - PHP integration
-   - Directory structure management
-
-5. **File Management**
-   - Secure file upload handling
-   - Directory traversal prevention
-   - File organization and access control
 
 ## Future Improvements
 
