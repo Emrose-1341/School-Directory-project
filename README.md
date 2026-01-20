@@ -9,7 +9,7 @@ The School Directory Project is a comprehensive PHP-based web application that i
 
 ## Table of Contents
 
-- [Skills Learned](skills-learned)
+- [Skills Learned](#skills-learned)
 - [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [User Roles & Permissions](#user-roles--permissions)
