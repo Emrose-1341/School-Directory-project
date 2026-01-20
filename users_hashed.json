@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "username": "student1",
+        "password": "$2y$12$m4WpEgA9YtK3fTcvwpNMtuYSU\/9DxUIVFzikNnZRsS9ppzKFcfFwi",
+        "role": "student"
+    },
+    {
+        "id": 2,
+        "username": "student2",
+        "password": "$2y$12$xZ2w9u54CMK83o5iw8hF\/ubR2j.CfGqBWzoHXimA1huwEwvMdYhJq",
+        "role": "student"
+    },
+    {
+        "id": 3,
+        "username": "teacher1",
+        "password": "$2y$12$8ofkPSSdtTPsdEVYHBarXOIM2ECLN7gzsjpx6iEfMypeKRHms6vR6",
+        "role": "teacher"
+    },
+    {
+        "id": 4,
+        "username": "teacher2",
+        "password": "$2y$12$qcRfL0AWzDo2tWCDbnex4eJujy4w5JVQ0\/ubLQWCpibL4\/V2RUPSO",
+        "role": "teacher"
+    }
+]

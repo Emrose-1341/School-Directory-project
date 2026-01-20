@@ -1,0 +1,12 @@
+{
+    "Networking_NET101": [
+        "student1"
+    ],
+    "Security_SEC101": [
+        "student2",
+        "student1"
+    ],
+    "Programming_PRO202": [
+        "student1"
+    ]
+}

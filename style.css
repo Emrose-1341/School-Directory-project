@@ -1,0 +1,117 @@
+/* General page styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e6; /* muted tan */
+    color: #4b3b2a; /* dark brown text */
+    text-align: center;
+}
+
+/* Header */
+#header {
+    background-color: #a08c7f; /* muted brown */
+    color: #f5f0e6; /* tan text */
+    padding: 30px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Navigation */
+#navigation {
+    background-color: #8ca18c; /* muted green */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#navigation ul li a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #f5f0e6;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+#navigation ul li a:hover {
+    background-color: #d6a6a6;
+    color: #4b3b2a;
+}
+
+/* Content */
+#content {
+    padding: 30px 50px;
+}
+
+#content h2 {
+    color: #4b3b2a;
+    border-bottom: 3px solid #8ca18c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#content p {
+    line-height: 1.8;
+    color: #4b3b2a;
+    font-size: 1.2em;
+}
+
+/* Boxes */
+.box {
+    width: 150px;
+    height: 150px;
+    background: lightblue;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+/* Centered container */
+.centered-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Links */
+a {
+    display: block;
+    margin: 10px auto;
+    font-size: 1.2em;
+}
+
+/* Form inputs and buttons */
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+textarea,
+select {
+    font-size: 1em; 
+    padding: 10px 8px;
+    margin: 8px 0;
+    width: 80%;
+    max-width: 400px;
+}

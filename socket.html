@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Python Socket Example</title>
+</head>
+<body>
+<pre>
+<code>
+import socket, ssl
+
+host = "example.com"
+context = sl/create_default_context()
+
+with socket.create_connection((host, 443)) as s:
+    with context.wrap_socket(s, server_hostname=host) as ss:
+        request = f"GET / HTTP/1.1\r\nHost: {host}\r\n\r\n"
+        ss.send(request.encode())
+        print(ss.recv(4096).decode())
+</code>
+</pre>
+</body>
+</html>

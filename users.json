@@ -1,0 +1,7 @@
+
+[
+    {"id":1,"username":"student1","password":"123","role":"student"},
+    {"id":2,"username":"student2","password":"456","role":"student"},
+    {"id":3,"username":"teacher1","password":"abc","role":"teacher"},
+    {"id":4,"username":"teacher2","password":"def","role":"teacher"}
+]
